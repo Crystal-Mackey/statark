@@ -1,8 +1,18 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import Header from "./components/Header";
+import Section from "./components/Section";
+import Maps from "./components/Maps";
 
 
-export default function App() {
-  return( <h1>home</h1>
+
+function App() {
+  return (
+    <div>
+      <Header/>
+      <Section/>
+      
+    </div>
   );
 }
+
+export default App;
