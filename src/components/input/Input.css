@@ -1,0 +1,46 @@
+a {
+    display: flex;
+    margin: 2px;
+    justify-content: space-evenly;
+    padding: 8px;
+  }
+  
+  .fields {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+  }
+  
+  .card-title.h5 {
+    display: block;
+    justify-content: center;
+    margin: auto;
+    padding: 2px;
+  }
+  
+  .form-label {
+    display: block;
+    margin: auto;
+  }
+  
+  .form-group {
+    display: block;
+    margin: auto;
+  }
+  
+  .input-button {
+    display: block;
+    margin: auto;
+    padding: 3px;
+    justify-content: center;
+  }
+  
+  .h1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  

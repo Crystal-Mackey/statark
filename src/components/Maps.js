@@ -1,7 +1,12 @@
 import { Link } from "react-router-dom";
+import Header from "../components/Header";
 
 const Maps = () => {
     return(
+      <div>
+        <div>
+        <Header/>
+        </div>
         <div>
             <ul>
           <li>
@@ -41,6 +46,7 @@ const Maps = () => {
               <Link to="/maps/fjordur">Fjordur</Link>
           </li>
         </ul>
+        </div>
         </div>
     )
 }

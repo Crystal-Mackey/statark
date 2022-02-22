@@ -1,16 +1,15 @@
-import { Link } from "react-router-dom";
+import FjordurRoutes from "./FjordRoutes";
+import Header from "../../Header";
+
 
 const Fjordur = () => {
     return(
         <div>
+            <div>
+            <Header/>
+            </div>
             <h1>COMING SOON</h1>
-            <ul>
-            <li><Link to="andrewsarchus">Andrewsarchus</Link></li>
-            <li><Link to="desmodus">Desmodus</Link></li>
-            <li><Link to="fenrir">Fenrir</Link></li>
-            <li><Link to="fjordhawk">Fjordhawk</Link></li>
-            <li><Link to="carcharondontosaurus">Carcharondontosaurus</Link></li>
-            </ul>
+            <FjordurRoutes/>
         </div>
     )
 }
