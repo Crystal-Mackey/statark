@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Header from "../components/Header";
 
 const Maps = () => {
@@ -8,44 +7,44 @@ const Maps = () => {
         <Header/>
         </div>
         <div>
-            <ul>
-          <li>
-            <Link to="/maps/island">Island</Link>
-          </li>
-          <li>
-            <Link to="/maps/center">Center</Link>
-          </li>
-          <li>
-            <Link to="/maps/scorched">Scorched Earth</Link>
-          </li>
-          <li>
-            <Link to="/maps/ragnarok">Ragnarok</Link>
-          </li>
-          <li>
-            <Link to="/maps/aberration">Aberration</Link>
-          </li>
-          <li>
-            <Link to="/maps/extinction">Extinction</Link>
-          </li>
-          <li>
-              <Link to="/maps/valguero">Valguero</Link>
-          </li>
-          <li>
-              <Link to="/maps/genesis">Genesis</Link>
-          </li>
-          <li>
-              <Link to="/maps/crystalisles">Crystal Isles</Link>
-          </li>
-          <li>
-              <Link to="/maps/genesis2">Genesis 2</Link>
-          </li>
-          <li>
-              <Link to="/maps/lostisland">Lost Island</Link>
-          </li>
-          <li>
-              <Link to="/maps/fjordur">Fjordur</Link>
-          </li>
-        </ul>
+           
+          
+            <a href="/maps/island">Island</a>
+          
+          
+            <a href="/maps/center">Center</a>
+          
+          
+            <a href="/maps/scorched">Scorched Earth</a>
+          
+          
+            <a href="/maps/ragnarok">Ragnarok</a>
+          
+          
+            <a href="/maps/aberration">Aberration</a>
+          
+          
+            <a href="/maps/extinction">Extinction</a>
+          
+          
+              <a href="/maps/valguero">Valguero</a>
+          
+          
+              <a href="/maps/genesis">Genesis</a>
+          
+          
+              <a href="/maps/crystalisles">Crystal Isles</a>
+          
+          
+              <a href="/maps/genesis2">Genesis 2</a>
+          
+          
+              <a href="/maps/lostisland">Lost Island</a>
+          
+          
+              <a href="/maps/fjordur">Fjordur</a>
+          
+        
         </div>
         </div>
     )
