@@ -4,12 +4,9 @@ import Home from "./components/Home";
 import Maps from "./components/Maps";
 import Input from "./components/input/Input";
 import Library from "./components/library/Library"
-import Fjordur from "./components/maps/fjordur/Fjordur";
-import Andrewsarchus from "./components/maps/fjordur/creatures/species/Andrewsarchus";
-import Carcharondontosaurus from "./components/maps/fjordur/creatures/species/Carcharondontosaurus";
-import Desmodus from "./components/maps/fjordur/creatures/species/Desmodus"
-import Fenrir from "./components/maps/fjordur/creatures/species/Fenrir";
-import Fjordhawk from "./components/maps/fjordur/creatures/species/Fjordhawk"
+import { Fjordur, Andrewsarchus, Carcharondontosaurus, Desmodus, Fenrir, Fjordhawk } from "./components/maps/fjordur";
+
+
 import "./App.css";
 
 
