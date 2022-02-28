@@ -6,7 +6,7 @@ const DireBear = () => {
         <div>
             <Header/>
             <div>
-            <h1>DireBear</h1>
+            <h1>Dire Bear</h1>
             </div>
         </div>
     )

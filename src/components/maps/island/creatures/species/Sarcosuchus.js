@@ -6,7 +6,7 @@ const Sarcosuchus = () => {
         <div>
             <Header/>
             <div>
-            <h1>Sarcos</h1>
+            <h1>Sarco</h1>
             </div>
         </div>
     )

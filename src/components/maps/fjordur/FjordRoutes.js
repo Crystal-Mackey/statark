@@ -1,25 +1,23 @@
-import { Link } from "react-router-dom";
+import { Fjordur, Andrewsarchus, Carcharondontosaurus, Desmodus, Fenrir, Fjordhawk } from "./index";
+import { Routes, Route } from "react-router-dom";
+
 
 const FjordurRoutes = () => {
-    return(
-        <ul>
-        <li>
-        <Link to="/maps/fjordur/andrewsarchus">Andrewsarchus</Link>
-        </li>
-        <li>
-            <Link to="/maps/fjordur/carcharondontosaurus">Carcharondontosaurus</Link>
-        </li>
-        <li>
-            <Link to="/maps/fjordur/desmodus">Desmodus</Link>
-        </li>
-        <li>
-            <Link to="/maps/fjordur/fenrir">Fenrir</Link>
-        </li>
-        <li>
-            <Link to="/maps/fjordur/fjordhawk">Fjordhawk</Link>
-        </li>
-        </ul>
-    )
-}
+  return (
+    <div>
+      <Routes>
+        <Route path="/maps/fjordur" element={<Fjordur />} />
+        <Route path="/maps/fjordur/andrewsarchus" element={<Andrewsarchus />} />
+        <Route
+          path="/maps/fjordur/carcharondontosaurus"
+          element={<Carcharondontosaurus />}
+        />
+        <Route path="/maps/fjordur/desmodus" element={<Desmodus />} />
+        <Route path="/maps/fjordur/fenrir" element={<Fenrir />} />
+        <Route path="/maps/fjordur/fjordhawk" element={<Fjordhawk />} />
+      </Routes>
+    </div>
+  );
+};
 
 export default FjordurRoutes;
