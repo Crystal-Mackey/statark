@@ -12,3 +12,12 @@
     width: 100%;
     
 }
+
+html{
+    background-image: url("Hero.jpg");
+}
+
+a{
+    color:black;
+    font-size: 30px;
+}
