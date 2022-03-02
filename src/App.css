@@ -13,6 +13,22 @@
     
 }
 
+.AberrationDinos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+.CenterDinos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
 html{
     background-image: url("Hero.jpg");
     height: 100vh;

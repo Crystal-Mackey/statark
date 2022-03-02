@@ -6,6 +6,10 @@ import { Provider } from "react-redux";
 import { store } from "./components/store/reduxStore";
 import FjordurRoutes from "./components/maps/fjordur/FjordRoutes";
 import IslandRoutes from "./components/maps/island/IslandRouting";
+import AberrationRoutes from "./components/maps/aberration/AberrationRoutes";
+import CenterRoutes from "./components/maps/center/CenterRoutes";
+import CrystalIslesRoutes from "./components/maps/crystalisles/CrystalIslesRoutes";
+import ScorchedRoutes from "./components/maps/scorchedearth/ScorchedEarthRoutes";
 
 
 ReactDOM.render(
@@ -14,6 +18,10 @@ ReactDOM.render(
     <Provider store={store}>
       <App />
       <IslandRoutes/>
+      <CenterRoutes/>
+      <ScorchedRoutes/>
+      <AberrationRoutes/>
+      <CrystalIslesRoutes/>
       <FjordurRoutes/>
     </Provider>
   </Router>

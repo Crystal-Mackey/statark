@@ -17,7 +17,7 @@ export { default as Castoroides } from "./creatures/species/Castoroides";
 export { default as Chalicotherium } from "./creatures/species/Chalicotherium";
 export { default as Compy } from "./creatures/species/Compy";
 export { default as Daeodon } from "./creatures/species/Daeodon";
-export { default as Dilophosaurus } from "./creatures/species/Dilophosaur";
+export { default as Dilophosaur } from "./creatures/species/Dilophosaur";
 export { default as Dimetrodon } from "./creatures/species/Dimetrodon";
 export { default as Dimorphodon } from "./creatures/species/Dimorphodon";
 export { default as Diplocaulus } from "./creatures/species/Diplocaulus";
