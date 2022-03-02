@@ -73,14 +73,17 @@ const Input = () => {
         <Card>
           <form onSubmit={handleSubmit}>
             <div className="ui-form">
-              <Card.Title>
+              <>
                 <h1>Enter stats</h1>
-              </Card.Title>
+              </>
               <div className="fields">
                 <Form.Group controlId="CreatureType">
                   <Form.Label>Creature</Form.Label>
+                  
                   <Form.Control onChange={(e) => setCreatureType(e.target.value)} value={creatureType} as="select">
                     <option>Choose...</option>
+                    <option value="Achatina">Achatina</option>
+                    <option value="Allosaurus">Allosaurus</option>
                     <option value="Giganotosaurus">Giganotosaurus</option>
                     <option value="Quetzal">Quetzal</option>
                     <option value="Stegosaurus">Stegosaurus</option>
@@ -88,8 +91,10 @@ const Input = () => {
                     <option value="Yutyrannus">Yutyrannus</option>
                   </Form.Control>
                 </Form.Group>
+                
                 <Form.Group>
                   <Form.Label>Gender</Form.Label>
+                  
                   <Form.Control onChange={(e) => setGender(e.target.value)} value={gender} as="select">
                     <option>Choose...</option>
                     <option value="Male">Male</option>
@@ -98,8 +103,10 @@ const Input = () => {
                     <option value="Neutered">Neutered</option>
                   </Form.Control>
                 </Form.Group>
+                
                 <Form.Group controlId="Status">
                   <Form.Label>Status</Form.Label>
+                  
                   <Form.Control onChange={(e) => setStatus(e.target.value)} value={status} as="select">
                     <option>Choose...</option>
                     <option value="Available">Available</option>
@@ -108,6 +115,7 @@ const Input = () => {
                     <option value="Deceased">Deceased</option>
                   </Form.Control>
                 </Form.Group>
+                
                 <div className="levelRow">
                   <Card.Title>Level</Card.Title>
                   <input
@@ -119,11 +127,15 @@ const Input = () => {
                     onChange={(e) => setLevel(e.target.value)}
                   />
                 </div>
+                
                 <Card.Title>
                   <>Name</>
                 </Card.Title>
+                
                 <input className="name" type="string" value={name} required onChange={(e) => setName(e.target.value)} />
+                
                 <Card.Title> Health</Card.Title>
+                
                 <input
                   className="health"
                   type="number"
@@ -131,7 +143,9 @@ const Input = () => {
                   value={health}
                   onChange={(e) => setHealth(e.target.value)}
                 />
+                
                 <Card.Title>Stamina</Card.Title>
+                
                 <input
                   className="stamina"
                   type="number"
@@ -139,7 +153,9 @@ const Input = () => {
                   value={stamina}
                   onChange={(e) => setStamina(e.target.value)}
                 />
+                
                 <Card.Title>Oxygen</Card.Title>
+                
                 <input
                   className="oxygen"
                   type="number"
@@ -147,9 +163,13 @@ const Input = () => {
                   value={oxygen}
                   onChange={(e) => setOxygen(e.target.value)}
                 />
+                
                 <Card.Title>Food</Card.Title>
+                
                 <input className="food" type="number" min="1" value={food} onChange={(e) => setFood(e.target.value)} />
+                
                 <Card.Title>Weight</Card.Title>
+                
                 <input
                   className="weight"
                   type="number"
@@ -157,7 +177,9 @@ const Input = () => {
                   value={weight}
                   onChange={(e) => setWeight(e.target.value)}
                 />
+                
                 <Card.Title>Melee Damage</Card.Title>
+                
                 <input
                   className="meleeDamage"
                   type="number"
@@ -165,7 +187,9 @@ const Input = () => {
                   value={meleeDamage}
                   onChange={(e) => setMeleeDamage(e.target.value)}
                 />
+                
                 <Card.Title>Movement Speed</Card.Title>
+                
                 <input
                   className="movementSpeed"
                   type="number"
@@ -173,7 +197,9 @@ const Input = () => {
                   value={movementSpeed}
                   onChange={(e) => setMovementSpeed(e.target.value)}
                 />
+                
                 <Card.Title>Torpidity</Card.Title>
+                
                 <input
                   className="torpidity"
                   type="number"
@@ -181,9 +207,13 @@ const Input = () => {
                   value={torpidity}
                   onChange={(e) => setTorpidity(e.target.value)}
                 />
+                
                 <Card.Title> Ark Sample ID</Card.Title>
+                
                 <input className="id" type="number" min="1" value={id} onChange={(e) => setId(e.target.value)} />
+                
                 <Card.Title>Imprinting</Card.Title>
+                
                 <input
                   className="imprinting"
                   type="number"
@@ -192,6 +222,7 @@ const Input = () => {
                   value={imprinting}
                   onChange={(e) => setImprinting(e.target.value)}
                 />
+                
                 <br></br>
                 <br></br>
                 <button className="input-button" type="submit" value="Submit">

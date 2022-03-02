@@ -15,6 +15,7 @@
 
 html{
     background-image: url("Hero.jpg");
+    height: 100vh;
 }
 
 a{

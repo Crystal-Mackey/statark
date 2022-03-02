@@ -19,16 +19,23 @@ a {
     justify-content: center;
     margin: auto;
     padding: 2px;
+    color:black;
+    background-color: white;
+    text-align: center;
   }
   
   .form-label {
     display: block;
     margin: auto;
+    color: black;
+    background-color: white;
+    text-align: center;
   }
   
   .form-group {
     display: block;
     margin: auto;
+   
   }
   
   .input-button {
