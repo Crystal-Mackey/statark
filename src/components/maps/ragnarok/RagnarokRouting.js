@@ -1,5 +1,4 @@
 import {
-    Island,
     Achatina,
     Allosaurus,
     Anglerfish,
@@ -84,6 +83,10 @@ import {
     Yutyrannus,
   } from "../island/index";
 
+  import { Jerboa, Lymantria, Mantis, Morellatops } from "../scorchedearth/index";
+
+  import Ragnarok from "./Ragnarok";
+
 
 import { Routes, Route } from "react-router-dom";
 
@@ -91,6 +94,7 @@ const RagnarokRoutes = () => {
   return (
     <div>
       <Routes>
+        <Route path="/maps/ragnarok" element={<Ragnarok/>}/>
         <Route path="/maps/ragnarok/achatina" element={<Achatina />} />
         <Route path="/maps/ragnarok/allosaurus" element={<Allosaurus />} />
         <Route path="/maps/ragnarok/anglerfish" element={<Anglerfish />} />
@@ -214,3 +218,6 @@ const RagnarokRoutes = () => {
     </div>
   );
 };
+
+
+export default RagnarokRoutes;

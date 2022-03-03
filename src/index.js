@@ -10,6 +10,9 @@ import AberrationRoutes from "./components/maps/aberration/AberrationRoutes";
 import CenterRoutes from "./components/maps/center/CenterRoutes";
 import CrystalIslesRoutes from "./components/maps/crystalisles/CrystalIslesRoutes";
 import ScorchedRoutes from "./components/maps/scorchedearth/ScorchedEarthRoutes";
+import RagnarokRoutes from "./components/maps/ragnarok/RagnarokRouting";
+import ExtinctionRoutes from "./components/maps/extinction/ExtinctionRoutes";
+import ValgueroRoutes from "./components/maps/valguero/ValgueroRoutes";
 
 
 ReactDOM.render(
@@ -21,6 +24,9 @@ ReactDOM.render(
       <CenterRoutes/>
       <ScorchedRoutes/>
       <AberrationRoutes/>
+      <RagnarokRoutes/>
+      <ExtinctionRoutes/>
+      <ValgueroRoutes/>
       <CrystalIslesRoutes/>
       <FjordurRoutes/>
     </Provider>
