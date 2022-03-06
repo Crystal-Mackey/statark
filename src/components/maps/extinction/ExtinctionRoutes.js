@@ -67,7 +67,7 @@ import {
   Thylacoleo,
   Triceratops,
   Troodon,
-  WoolyRhino,
+  WoollyRhino,
   Yutyrannus,
 } from "../island/index";
 
@@ -216,7 +216,7 @@ const ExtinctionRoutes = () => {
         <Route path="/maps/extinction/triceratops" element={<Triceratops />} />
         <Route path="/maps/extinction/troodon" element={<Troodon />} />
         <Route path="/maps/extinction/velonasaur" element={<Velonasaur />} />
-        <Route path="/maps/extinction/woolyrhino" element={<WoolyRhino />} />
+        <Route path="/maps/extinction/woollyrhino" element={<WoollyRhino />} />
         <Route path="/maps/extinction/yutyrannus" element={<Yutyrannus />} />
       </Routes>
     </div>

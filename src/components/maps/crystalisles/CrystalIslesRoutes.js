@@ -82,7 +82,7 @@ import {
   Triceratops,
   Troodon,
   Tusoteuthis,
-  WoolyRhino,
+  WoollyRhino,
   Yutyrannus,
 } from "../island/index";
 import { Glowtail } from "../aberration/index";
@@ -340,7 +340,7 @@ const CrystalIslesRoutes = () => {
           path="/maps/crystalisles/tusoteuthis"
           element={<Tusoteuthis />}
         />
-        <Route path="/maps/crystalisles/woolyrhino" element={<WoolyRhino />} />
+        <Route path="/maps/crystalisles/woolyrhino" element={<WoollyRhino />} />
         <Route path="/maps/crystalisles/yutyrannus" element={<Yutyrannus />} />
       </Routes>
     </div>

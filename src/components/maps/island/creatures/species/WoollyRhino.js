@@ -1,15 +1,15 @@
 import Header from "../../../../Header"
 
 
-const WoolyRhino = () => {
+const WoollyRhino = () => {
     return(
         <div>
             <Header/>
             <div>
-            <h1>Wooly Rhino</h1>
+            <h1>Woolly Rhino</h1>
             </div>
         </div>
     )
 }
 
-export default WoolyRhino;
+export default WoollyRhino;

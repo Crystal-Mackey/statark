@@ -92,7 +92,7 @@ const Ragnarok = () => {
         <a href="/maps/ragnarok/triceratops">Triceratops</a>
         <a href="/maps/ragnarok/troodon">Troodon</a>
         <a href="/maps/ragnarok/tusoteuthis">Tusoteuthis</a>
-        <a href="/maps/ragnarok/woolyrhino">Wooly Rhino</a>
+        <a href="/maps/ragnarok/woollyrhino">Woolly Rhino</a>
         <a href="/maps/ragnarok/yutyrannus">Yutyrannus</a>
             </div>
         </div>

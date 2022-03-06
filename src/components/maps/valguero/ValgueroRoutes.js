@@ -81,7 +81,7 @@ import {
   Triceratops,
   Troodon,
   Tusoteuthis,
-  WoolyRhino,
+  WoollyRhino,
   Yutyrannus,
 } from "../island/index";
 
@@ -217,7 +217,7 @@ const ValgueroRoutes = () => {
         <Route path="/maps/valguero/triceratops" element={<Triceratops />} />
         <Route path="/maps/valguero/troodon" element={<Troodon />} />
         <Route path="/maps/valguero/tusoteuthis" element={<Tusoteuthis />} />
-        <Route path="/maps/valguero/woolyrhino" element={<WoolyRhino />} />
+        <Route path="/maps/valguero/woollyrhino" element={<WoollyRhino />} />
         <Route path="/maps/valguero/yutyrannus" element={<Yutyrannus />} />
       </Routes>
     </div>

@@ -61,6 +61,30 @@
     width: 100%;
 }
 
+.crystalislesDinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.genesisDinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.lostislandDinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 html{
     background-image: url("Hero.jpg");
     height: 100vh;

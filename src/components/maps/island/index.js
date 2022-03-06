@@ -82,5 +82,5 @@ export { default as Thylacoleo } from "./creatures/species/Thylacoleo";
 export { default as Triceratops } from "./creatures/species/Triceratops";
 export { default as Troodon } from "./creatures/species/Troodon";
 export { default as Tusoteuthis } from "./creatures/species/Tusoteuthis";
-export { default as WoolyRhino } from "./creatures/species/WoolyRhino";
+export { default as WoollyRhino } from "./creatures/species/WoollyRhino";
 export { default as Yutyrannus } from "./creatures/species/Yutyrannus";

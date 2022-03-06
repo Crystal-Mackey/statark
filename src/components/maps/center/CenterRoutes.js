@@ -79,7 +79,7 @@ Baryonyx, Basilosaurus, Beelzebufo, Brontosaurus,
     Triceratops,
     Troodon,
     Tusoteuthis,
-    WoolyRhino,
+    WoollyRhino,
     Yutyrannus,
   } from "../island/index";
   import Center from "./Center";
@@ -197,7 +197,7 @@ const CenterRoutes = () => {
           <Route path="/maps/center/triceratops" element={<Triceratops />} />
           <Route path="/maps/center/troodon" element={<Troodon />} />
           <Route path="/maps/center/tusoteuthis" element={<Tusoteuthis />} />
-          <Route path="/maps/center/woolyrhino" element={<WoolyRhino />} />
+          <Route path="/maps/center/woollyrhino" element={<WoollyRhino />} />
           <Route path="/maps/center/yutyrannus" element={<Yutyrannus />} />
         </Routes>
       </div>

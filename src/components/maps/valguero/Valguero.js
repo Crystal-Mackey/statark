@@ -121,7 +121,7 @@ const Valguero = () => {
     <a href="/maps/valguero/troodon">Troodon</a>
     <a href="/maps/valguero/tusoteuthis">Tusoteuthis</a>
     <a href="/maps/valguero/equus">Unicorn</a>
-    <a href="/maps/valguero/woolyrhino">Wooly Rhino</a>
+    <a href="/maps/valguero/woollyrhino">Woolly Rhino</a>
     <a href="/maps/valguero/yutyrannus">Yutyrannus</a>
 </div>
 </div>

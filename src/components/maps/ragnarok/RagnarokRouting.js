@@ -79,7 +79,7 @@ import {
     Triceratops,
     Troodon,
     Tusoteuthis,
-    WoolyRhino,
+    WoollyRhino,
     Yutyrannus,
   } from "../island/index";
 
@@ -212,7 +212,7 @@ const RagnarokRoutes = () => {
         <Route path="/maps/ragnarok/triceratops" element={<Triceratops />} />
         <Route path="/maps/ragnarok/troodon" element={<Troodon />} />
         <Route path="/maps/ragnarok/tusoteuthis" element={<Tusoteuthis />} />
-        <Route path="/maps/ragnarok/woolyrhino" element={<WoolyRhino />} />
+        <Route path="/maps/ragnarok/woollyrhino" element={<WoollyRhino />} />
         <Route path="/maps/ragnarok/yutyrannus" element={<Yutyrannus />} />
       </Routes>
     </div>

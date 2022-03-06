@@ -13,6 +13,8 @@ import ScorchedRoutes from "./components/maps/scorchedearth/ScorchedEarthRoutes"
 import RagnarokRoutes from "./components/maps/ragnarok/RagnarokRouting";
 import ExtinctionRoutes from "./components/maps/extinction/ExtinctionRoutes";
 import ValgueroRoutes from "./components/maps/valguero/ValgueroRoutes";
+import GenesisRoutes from "./components/maps/genesis/GenesisRoutes";
+import LostIslandRoutes from "./components/maps/lostisland/LostIslandRoutes";
 
 
 ReactDOM.render(
@@ -28,6 +30,8 @@ ReactDOM.render(
       <ExtinctionRoutes/>
       <ValgueroRoutes/>
       <CrystalIslesRoutes/>
+      <GenesisRoutes/>
+      <LostIslandRoutes/>
       <FjordurRoutes/>
     </Provider>
   </Router>

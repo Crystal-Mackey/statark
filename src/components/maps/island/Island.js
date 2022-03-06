@@ -88,7 +88,7 @@ const Island = () => {
         <a href="/maps/island/triceratops">Triceratops</a>
         <a href="/maps/island/troodon">Troodon</a>
         <a href="/maps/island/tusoteuthis">Tusoteuthis</a>
-        <a href="/maps/island/woolyrhino">Wooly Rhino</a>
+        <a href="/maps/island/woollyrhino">Woolly Rhino</a>
         <a href="/maps/island/yutyrannus">Yutyrannus</a>
         </div>
         </div>

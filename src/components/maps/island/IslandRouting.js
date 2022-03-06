@@ -80,7 +80,7 @@ import {
   Triceratops,
   Troodon,
   Tusoteuthis,
-  WoolyRhino,
+  WoollyRhino,
   Yutyrannus,
 } from "./index";
 import { Routes, Route } from "react-router-dom";
@@ -194,7 +194,7 @@ const IslandRoutes = () => {
         <Route path="/maps/island/triceratops" element={<Triceratops />} />
         <Route path="/maps/island/troodon" element={<Troodon />} />
         <Route path="/maps/island/tusoteuthis" element={<Tusoteuthis />} />
-        <Route path="/maps/island/woolyrhino" element={<WoolyRhino />} />
+        <Route path="/maps/island/woollyrhino" element={<WoollyRhino />} />
         <Route path="/maps/island/yutyrannus" element={<Yutyrannus />} />
       </Routes>
     </div>

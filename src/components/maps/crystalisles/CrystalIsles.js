@@ -110,7 +110,7 @@ const CrystalIsles = () => {
         <a href="/maps/crystalisles/triceratops">Triceratops</a>
         <a href="/maps/crystalisles/troodon">Troodon</a>
         <a href="/maps/crystalisles/tusoteuthis">Tusoteuthis</a>
-        <a href="/maps/crystalisles/woolyrhino">Wooly Rhino</a>
+        <a href="/maps/crystalisles/woollyrhino">Woolly Rhino</a>
         <a href="/maps/crystalisles/yutyrannus">Yutyrannus</a>
 
         </div>

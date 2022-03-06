@@ -87,7 +87,7 @@ const Center = () => {
         <a href="/maps/center/triceratops">Triceratops</a>
         <a href="/maps/center/troodon">Troodon</a>
         <a href="/maps/center/tusoteuthis">Tusoteuthis</a>
-        <a href="/maps/center/woolyrhino">Wooly Rhino</a>
+        <a href="/maps/center/woollyrhino">Woolly Rhino</a>
         <a href="/maps/center/yutyrannus">Yutyrannus</a>
         </div>
         </div>

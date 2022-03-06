@@ -82,7 +82,7 @@ const Extinction = () => {
             <a href="/maps/extinction/triceratops">Triceratops</a>
             <a href="/maps/extinction/troodon">Troodon</a>
             <a href="/maps/extinction/velonasaur">Velonasaur</a>
-            <a href="/maps/extinction/woolyrhino">Wooly Rhino</a>
+            <a href="/maps/extinction/woollyrhino">Woolly Rhino</a>
             <a href="/maps/extinction/yutyrannus">Yutyrannus</a>
         </div>
     </div>
