@@ -18,7 +18,7 @@ const Achatina = () => {
                         <td>Baby Time</td> <td>9h 15m 33.333s</td>
                     </tr>
                     <tr>
-                        <td>Junvenile Time</td> <td>1d 13h 2m 13.333s</td>
+                        <td>Juvenile Time</td> <td>1d 13h 2m 13.333s</td>
                     </tr>
                     <tr>
                         <td>Adolescent Time</td> <td>1d 22h 17m 46.667s</td>

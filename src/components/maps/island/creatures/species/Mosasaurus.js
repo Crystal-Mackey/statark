@@ -20,7 +20,7 @@ const Mosasaurus = () => {
                         <td>Baby Time</td> <td>FILLER</td>
                     </tr>
                     <tr>
-                        <td>Junvenile Time</td> <td>FILLER</td>
+                        <td>Juvenile Time</td> <td>FILLER</td>
                     </tr>
                     <tr>
                         <td>Adolescent Time</td> <td>FILLER</td>
