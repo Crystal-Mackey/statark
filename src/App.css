@@ -93,6 +93,24 @@
     width: 100%;
 }
 
+.Container{
+    display:flex;
+    flex-direction: row;
+}
+
+.Raising{
+    /* background-color: #7aadff; */
+    width:fit-content;
+}
+
+.BaseStats{
+    /* background-color: #7aadff; */
+    width: fit-content;
+    padding-left: 20px;
+    position:absolute;
+    right: 150px;
+}
+
 html{
     background-image: url("Hero.jpg");
     height: 100vh;
@@ -101,4 +119,23 @@ html{
 a{
     color:black;
     font-size: 30px;
+}
+
+h1{
+    color:black;
+}
+
+h3{
+    color:black;
+}
+
+
+table{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+td{
+    border: 1px solid black;
 }
