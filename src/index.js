@@ -1,40 +1,43 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
-import App from "./App.js"
+import App from "./App.js";
 import { Provider } from "react-redux";
 import { store } from "./components/store/reduxStore";
-import FjordurRoutes from "./components/maps/fjordur/FjordRoutes";
-import IslandRoutes from "./components/maps/island/IslandRouting";
-import AberrationRoutes from "./components/maps/aberration/AberrationRoutes";
-import CenterRoutes from "./components/maps/center/CenterRoutes";
-import CrystalIslesRoutes from "./components/maps/crystalisles/CrystalIslesRoutes";
-import ScorchedRoutes from "./components/maps/scorchedearth/ScorchedEarthRoutes";
-import RagnarokRoutes from "./components/maps/ragnarok/RagnarokRouting";
-import ExtinctionRoutes from "./components/maps/extinction/ExtinctionRoutes";
-import ValgueroRoutes from "./components/maps/valguero/ValgueroRoutes";
-import GenesisRoutes from "./components/maps/genesis/GenesisRoutes";
-import LostIslandRoutes from "./components/maps/lostisland/LostIslandRoutes";
-
+import {
+  FjordurRoutes,
+  IslandRoutes,
+  AberrationRoutes,
+  CenterRoutes,
+  CrystalIslesRoutes,
+  ScorchedRoutes,
+  RagnarokRoutes,
+  ExtinctionRoutes,
+  ValgueroRoutes,
+  GenesisRoutes,
+  Genesis2Routes,
+  LostIslandRoutes,
+} from "./components/maps/index";
 
 ReactDOM.render(
   <React.StrictMode>
-  <Router>
-    <Provider store={store}>
-      <App />
-      <IslandRoutes/>
-      <CenterRoutes/>
-      <ScorchedRoutes/>
-      <AberrationRoutes/>
-      <RagnarokRoutes/>
-      <ExtinctionRoutes/>
-      <ValgueroRoutes/>
-      <CrystalIslesRoutes/>
-      <GenesisRoutes/>
-      <LostIslandRoutes/>
-      <FjordurRoutes/>
-    </Provider>
-  </Router>
-</React.StrictMode>,
-document.getElementById("root"),
+    <Router>
+      <Provider store={store}>
+        <App />
+        <IslandRoutes />
+        <CenterRoutes />
+        <ScorchedRoutes />
+        <AberrationRoutes />
+        <RagnarokRoutes />
+        <ExtinctionRoutes />
+        <ValgueroRoutes />
+        <CrystalIslesRoutes />
+        <GenesisRoutes />
+        <Genesis2Routes />
+        <LostIslandRoutes />
+        <FjordurRoutes />
+      </Provider>
+    </Router>
+  </React.StrictMode>,
+  document.getElementById("root")
 );

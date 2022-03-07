@@ -1,0 +1,12 @@
+export { default as IslandRoutes } from "./island/IslandRouting";
+export { default as CenterRoutes } from "./center/CenterRoutes";
+export { default as RagnarokRoutes } from "./ragnarok/RagnarokRouting";
+export { default as ScorchedRoutes } from "./scorchedearth/ScorchedEarthRoutes";
+export { default as AberrationRoutes } from "./aberration/AberrationRoutes";
+export { default as ExtinctionRoutes } from "./extinction/ExtinctionRoutes";
+export { default as ValgueroRoutes } from "./valguero/ValgueroRoutes";
+export { default as CrystalIslesRoutes } from "./crystalisles/CrystalIslesRoutes";
+export { default as GenesisRoutes } from "./genesis/GenesisRoutes";
+export { default as Genesis2Routes } from "./genesis2/Genesis2Routes";
+export { default as LostIslandRoutes } from "./lostisland/LostIslandRoutes";
+export { default as FjordurRoutes } from "./fjordur/FjordRoutes";

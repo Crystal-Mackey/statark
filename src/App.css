@@ -77,6 +77,14 @@
     width: 100%;
 }
 
+.genesis2Dinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
 .lostislandDinos{
     display: flex;
     flex-direction: row;
